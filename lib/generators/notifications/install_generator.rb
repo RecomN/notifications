@@ -30,7 +30,7 @@ module Notifications
       end
 
       def add_migrations
-        exec('rake notifications:install:migrations')
+        exec('rake app:notifications:install:migrations')
       end
     end
   end
